@@ -65,6 +65,34 @@ app/src/main/java/com/duoglass/launcher/
 
 ## Building
 
+### Quick Start
+
+**Using the build scripts:**
+```bash
+# Linux/Mac
+./build.sh
+
+# Windows
+build.bat
+```
+
+**Using Android Studio (Recommended):**
+1. Open Android Studio
+2. File → Open → Select this directory
+3. Wait for Gradle sync
+4. Build → Build Bundle(s) / APK(s) → Build APK(s)
+
+**Using Gradle directly:**
+```bash
+# Linux/Mac
+./gradlew assembleDebug
+
+# Windows
+gradlew.bat assembleDebug
+```
+
+📖 **For detailed build instructions, see [BUILD_GUIDE.md](BUILD_GUIDE.md)**
+
 This is a standard Android project. To build:
 
 1. Open in Android Studio
@@ -72,10 +100,15 @@ This is a standard Android project. To build:
 3. Build and run on device or emulator
 
 **Requirements**:
-- Android SDK 26+ (Min SDK)
-- Android SDK 34 (Target SDK)
-- Kotlin 1.9.20+
-- Gradle 8.2+
+- Android Studio (recommended) OR Gradle 8.0+ with Android SDK
+- JDK 11 or later
+- Internet connection (for first build to download dependencies)
+- Android SDK 26-34
+
+### Output Location
+After building, the APK will be at:
+- Debug: `app/build/outputs/apk/debug/app-debug.apk`
+- Release: `app/build/outputs/apk/release/app-release.apk`
 
 ## Design Specifications
 
