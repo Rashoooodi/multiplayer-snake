@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DuoGlass</string>
+    <string name="welcome">Welcome.</string>
+    <string name="choose_typeface">Choose your Typeface.</string>
+    <string name="how_do_you_search">How do you search?</string>
+    <string name="grid_density">Grid Density.</string>
+    <string name="select_vibe">Select Vibe.</string>
+    <string name="all_set">All Set.</string>
+    <string name="launch">Launch</string>
+    <string name="next">Next</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="preview_text">The quick brown fox</string>
+    <string name="poppins">Poppins</string>
+    <string name="product_sans_style">Product Sans Style</string>
+    <string name="google">Google</string>
+    <string name="bing">Bing</string>
+    <string name="ddg">DuckDuckGo</string>
+    <string name="comfortable">Comfortable</string>
+    <string name="dense">Dense (Productivity)</string>
+    <string name="glass_dark">Glass Dark</string>
+    <string name="glass_light">Glass Light</string>
+    <string name="oled">OLED</string>
+    <string name="search_hint">Search the web...</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+</resources>
