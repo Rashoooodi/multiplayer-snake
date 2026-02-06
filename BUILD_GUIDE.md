@@ -152,9 +152,10 @@ Before building the DuoGlass Launcher application, ensure you have:
 - **Min SDK**: 26 (Android 8.0)
 - **Target SDK**: 34 (Android 14)
 - **Compile SDK**: 34
-- **Kotlin**: 1.8.20
+- **Kotlin**: 1.9.10
 - **Gradle**: 8.0
-- **AGP**: 8.0.2
+- **AGP**: 8.1.4
+- **Compose Compiler**: 1.5.3
 
 ### Key Dependencies
 ```kotlin
